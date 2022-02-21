@@ -19,3 +19,8 @@ This repository contains all sources and slides to replay the Tutoring-Session *
 
 * Call http://localhost:8080/beer for the Quarkus Reactive RESTEasy application
 * Call http://localhost:8080/fruits for the Quarkus Reactive RESTEasy & Reactive JDBC with Panache application
+
+## Credits
+
+* Fruits - Getting Started (RESTEasy & Panache): https://quarkus.io/guides/getting-started-reactive
+* Reactive Beer: https://redhat-developer-demos.github.io/quarkus-tutorial/quarkus-tutorial/reactive.html
