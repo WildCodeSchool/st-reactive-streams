@@ -11,4 +11,11 @@ This repository contains all sources and slides to replay the Tutoring-Session *
 
 ## Run
 
-* Run `mvn quarkus:dev`
+* Run `mvn clean install` to build the project
+* Run `mvn quarkus:dev` to run the application OR
+* Run class `Main` from the root of the project
+
+## Test
+
+* Call http://localhost:8080/beer for the Quarkus Reactive RESTEasy application
+* Call http://localhost:8080/fruits for the Quarkus Reactive RESTEasy & Reactive JDBC with Panache application
