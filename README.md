@@ -22,7 +22,7 @@ This repository contains all sources and slides to replay the Tutoring-Session *
 
 ## Test Spring Boot Reactive Beer Consumer
 
-* Start Quarkus Application with `mvn quarkus:run` or with the `Main` class in your IDE.
+* Start Quarkus Application with `mvn quarkus:dev` or with the `Main` class in your IDE.
 * Run Spring Boot Application with `mvn spring-boot:run` or with the `Application` class in your IDE.
 
 ## Credits
