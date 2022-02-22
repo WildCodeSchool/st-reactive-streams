@@ -16,7 +16,7 @@ public class ReactiveProgrammingTest {
 
     @BeforeEach
     public void setup() {
-        listOf10beers = Arrays.asList("Heineken", "Budweiser", "Corona", "Stella Artois", "Carlsberg", "Bud Light", "Guinness", "Carlsberg", "Budweiser", "Heineken");
+        listOf10beers = Arrays.asList("Heineken", "Budweiser", "Corona", "Stella Artois", "Carlsberg", "Bud Light", "Guinness", "Schorschbock", "Snake Venom", "Tactical Nuclear Penguin");
     }
 
     @Test
@@ -30,7 +30,6 @@ public class ReactiveProgrammingTest {
     }
 
     private String getRandomBeer() throws InterruptedException {
-        List<String> listOf10beers = Arrays.asList("Heineken", "Budweiser", "Corona", "Stella Artois", "Carlsberg", "Bud Light", "Guinness", "Schorschbock", "Snake Venom", "Tactical Nuclear Penguin");
         // simulate waiting (same functionality as "tick" in async)
         Thread.sleep(1000);
         return listOf10beers.get(ThreadLocalRandom.current().nextInt(0, listOf10beers.size()));
