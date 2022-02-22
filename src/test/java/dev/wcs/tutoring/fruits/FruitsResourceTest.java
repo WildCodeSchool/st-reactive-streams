@@ -13,7 +13,7 @@ public class FruitsResourceTest {
     @Test
     public void testHelloEndpoint() {
         given()
-          .when().get("/fruits")
+          .when().get("/fruit")
           .then()
              .statusCode(200)
              .body(containsString("Apple"));

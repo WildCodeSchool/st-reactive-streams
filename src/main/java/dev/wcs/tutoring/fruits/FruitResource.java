@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 import java.net.URI;
 import java.util.List;
 
-@Path("/fruits")
+@Path("/fruit")
 @ApplicationScoped
 public class FruitResource {
 
@@ -24,7 +24,7 @@ public class FruitResource {
 
     @POST
     public Uni<Response> create(Fruit fruit) {
-        return Panache.<Fruit>withTransaction(fruit::persist)
-                .onItem().transform(inserted -> Response.created(URI.create("/fruits/" + inserted.id)).build());
+        return Panache
+                .<Fruit>withTransaction(fruit::persist).onItem().transform(inserted -> Response.created(URI.create("/fruit/" + inserted.id)).build());
     }
 }
