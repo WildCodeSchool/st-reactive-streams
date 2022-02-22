@@ -28,7 +28,7 @@ public class BeerResource {
             )
             .until(List::isEmpty) 
             .onItem().<Beer>disjoint() 
-            .select().where(b -> b.getAbv() > 15.0);
+            .select().where(b -> b.getAbv() > 6.0);
     }
 
 }
