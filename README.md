@@ -18,7 +18,7 @@ This repository contains all sources and slides to replay the Tutoring-Session *
 ## Test
 
 * Call http://localhost:8080/beer for the Quarkus Reactive RESTEasy application
-* Call http://localhost:8080/fruits for the Quarkus Reactive RESTEasy & Reactive JDBC with Panache application
+* Call http://localhost:8080/fruit for the Quarkus Reactive RESTEasy & Reactive JDBC with Panache application
 
 ## Test Spring Boot Reactive Beer Consumer
 
