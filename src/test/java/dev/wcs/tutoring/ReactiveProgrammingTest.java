@@ -4,6 +4,7 @@ import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
@@ -42,6 +43,5 @@ public class ReactiveProgrammingTest {
                         item -> System.out.println("Received: " + item),
                         failure -> System.out.println("Failed with " + failure)
                 );
-
     }
 }

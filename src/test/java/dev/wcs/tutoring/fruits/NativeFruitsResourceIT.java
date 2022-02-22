@@ -1,9 +1,9 @@
-package dev.wcs.tutoring;
+package dev.wcs.tutoring.fruits;
 
 import io.quarkus.test.junit.NativeImageTest;
 
 @NativeImageTest
-public class NativeReactiveGreetingResourceIT extends ReactiveGreetingResourceTest {
+public class NativeFruitsResourceIT extends FruitsResourceTest {
 
     // Execute the same tests but in native mode.
 }
