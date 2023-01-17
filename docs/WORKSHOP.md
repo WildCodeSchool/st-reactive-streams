@@ -1,6 +1,6 @@
 # Walkthrough for Quarkus Client/Server Request
 
-![](https://i.imgur.com/V1084bq.png)
+![](https://i.imgur.com/pbA3sVn.png)
 
 ## Server-Side Setup
 
@@ -21,7 +21,7 @@ public Multi<Beer> beers() {
 }
 ```
 
-In this code fragment, the **synchronous** HTTP REST call to the external service is converted to a **asynchronous** stream of data by repeating the synchronous external calls and wrapping them into a Reactive `Multi` object.
+In this code fragment, the **synchronous** HTTP REST call to the external service (which is executed by **BeerService** below) is converted to a **asynchronous** stream of data by repeating the synchronous external calls and wrapping them into a Reactive `Multi` object.
 
 
 **BeerService** (Interface which at runtime will be a Quarkus REST Client)
