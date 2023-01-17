@@ -12,7 +12,7 @@ import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import io.smallrye.mutiny.Multi;
 
-@Path("/beer")
+@Path("/beers")
 public class BeerResource {
 
     @RestClient

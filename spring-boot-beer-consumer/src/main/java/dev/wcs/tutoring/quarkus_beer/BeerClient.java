@@ -15,7 +15,7 @@ public class BeerClient {
 	}
 
 	public Flux<Beer> getMessage() {
-		return this.client.get().uri("/beer").accept(MediaType.APPLICATION_JSON)
+		return this.client.get().uri("/beers").accept(MediaType.APPLICATION_JSON)
 				.retrieve()
 				.bodyToFlux(Beer.class);
 	}

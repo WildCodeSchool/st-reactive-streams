@@ -20,10 +20,13 @@ This repository contains all sources and slides to replay the Tutoring-Session *
 * Call http://localhost:8080/beer for the Quarkus Reactive RESTEasy application
 * Call http://localhost:8080/fruit for the Quarkus Reactive RESTEasy & Reactive JDBC with Panache application
 
-## Test Spring Boot Reactive Beer Consumer
+## Test Reactive Beer Consumer
 
 * Start Quarkus Application with `mvn quarkus:dev` or with the `Main` class in your IDE.
+
 * Run Spring Boot Application with `mvn spring-boot:run` or with the `Application` class in your IDE.
+OR
+* Run `Application` in your IDE.
 
 ## Credits
 
